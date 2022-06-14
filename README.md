@@ -1,6 +1,6 @@
 # Tutorial React - Jogo Tic-Tac-Toe (Jogo da velha)
 
-Implementação do jogo da velha disponível no [Tutorial oficial do React](https://pt-br.reactjs.org/tutorial/tutorial.html), incluindo as 6 melhorias sugeridas ao final do tutorial:
+Implementação do jogo da velha disponível no [Tutorial: Introdução ao React](https://pt-br.reactjs.org/tutorial/tutorial.html), incluindo as 6 melhorias sugeridas no final:
 
 1. Mostrar a localização de cada jogada no formato (col,row), para cada jogada no histórico.
 2. Estilizar com negrito o item da lista de jogadas que está selecionado no momento.
