@@ -152,6 +152,22 @@ class Game extends React.Component {
             >
               Desc
             </button>
+            <button
+              onClick={() =>
+                this.setState({
+                  history: [
+                    {
+                      squares: Array(9).fill(null),
+                      square: null,
+                    },
+                  ],
+                  stepNumber: 0,
+                  xIsNext: true,
+                })
+              }
+            >
+              New game
+            </button>
           </div>
           <ol reversed={this.state.orderDesc}>{moves}</ol>
         </div>
